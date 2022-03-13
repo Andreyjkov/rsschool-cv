@@ -1,13 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="start"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV HTML</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header_cv">
+      <div class="header_name">
+        <h1 class="title">Andrey Koval</h1>
+        <p class="pPosition">Front-End developer</p>
+      </div>
+
+      <div class="header_foto">
+        <img class="mYi" src="img/001.JPG" alt="Koval Andrey" />
+      </div>
+    </header>
+
+    <hr />
+
+    <main class="info">
+      <nav class="nav">
+        <div class="navMain">
+          <a href="#Contacts">Contacts</a>
+          <a href="#Abot Me">Abot Me</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Code Example">Code Example</a>
+          <a href="#Experience">Experience</a>
+          <a href="#Languages">Languages</a>
+        </div>
+      </nav>
+
+      <section>
+        <h2><a name="Contacts"></a>Contacts:</h2>
+        <p><b>Location:</b> Grodno, Belarus</p>
+        <p><b>Phone:</b><a href="tel:+375295806343"> +375 29 580-63-43</a></p>
+        <p>
+          <b>E-mail:</b>
+          <a href="mailto:Andreyjskov@gmail.com"> Andreyjskov@gmail.com </a>
+        </p>
+        <p>
+          <b>GitHub:</b> <a href="https://github.com/Andreyjkov"> Andreyjkov</a>
+        </p>
+      </section>
+
+      <section>
+        <h2><a name="Abot Me"></a> Abot Me:</h2>
+        <p>
+          I repair mobile electronics I became interested in their service at
+          the device-user level.
+        </p>
+        <p>
+          I want to work in a team with professionals to increase my level of
+          knowledge in programming and career growth.
+        </p>
+        <p>p.s I can help you fix your cell phone :)</p>
+      </section>
+
+      <section>
+        <h2><a name="Skills"></a> Skills:</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript(Basic)</li>
+          <li>Git</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><a name="Code Example"></a> Code Example:</h2>
+        <pre class="CodeExample">
+          <details>
+            <summary>From codewars</summary> 
+                    <div class="code"> 
+           <samp class="colorCode">function</samp ><samp class="colorCodeTow"> removeChar</samp> (<samp class="colorCodeTow">str</samp>) {
+              <samp class="colorCode">return</samp> <samp class="colorCodeThree">str</samp>.<samp class="colorCodeThree">slice</samp>(<samp class="colorCodeTow">1</samp>, -<samp class="colorCodeTow">1</samp>);
+            };
+                    </div> 
+          </details>
+          
+         </pre>
+      </section>
+
+      <section>
+        <h2><a name="Experience"></a> Experience:</h2>
+        <li><a href="https://htmlacademy.ru/">htmlacademy</a></li>
+      </section>
+
+      <section>
+        <h2>Education:</h2>
+        <p>Grodno State Vocational College of Instrument Engineering</p>
+        <p>Repair and maintenance of television radio equipment</p>
+      </section>
+
+      <section>
+        <h2><a name="Languages"></a> Languages</h2>
+        <li>English: A2</li>
+      </section>
+    </main>
+
+  </body>
 </html>
