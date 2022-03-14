@@ -76,3 +76,16 @@ section {
 .colorCodeThree {
   color: #81a2be;
 }
+
+.footer_main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_logo {
+  height: 40px;
+  width: 100px;
+}
