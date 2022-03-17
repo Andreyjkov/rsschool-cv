@@ -1,0 +1,89 @@
+body {
+  height: 100%;
+  min-width: 460px;
+  padding: 50px;
+  background-color: #ccc;
+}
+/* ----------------------------------------------------------- */
+.nav {
+  font-size: 16px;
+  background-color: #ccc;
+}
+
+.mYi {
+  display: block;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0px 0px 14px 0px;
+  border-radius: 50%;
+}
+
+.header_name {
+  margin: 0 auto 8px;
+}
+.title {
+  color: #000000;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  font-size: 45px;
+}
+.pPosition {
+  text-align: center;
+}
+
+.header_cv {
+  border: 2px black;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* ---------------------------------------------------------------- */
+
+.navMain {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+}
+
+a {
+  color: #000000;
+  margin: 10px;
+}
+
+section {
+  background-color: #dfdfdf;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.code {
+  background-color: #000000;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.colorCode {
+  color: #b294bb;
+}
+.colorCodeTow {
+  color: #de935f;
+}
+.colorCodeThree {
+  color: #81a2be;
+}
+
+.footer_main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer_logo {
+  height: 40px;
+  width: 100px;
+}
